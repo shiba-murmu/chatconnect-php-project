@@ -1,0 +1,16 @@
+#notification , #friends , #request {
+  color: rgb(0, 51, 255);
+  animation: appear 1s ease-in-out infinite;
+}
+/**
+  for blink the notifications for drawing 
+  attention to the navigation bar..
+*/
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/parsing": [
+      "default",
+      {
+        "duplicate-id": "off"
+      }
+    ],
+    "detect-css-reflows/composite": "off",
+    "detect-css-reflows/paint": "off",
+    "detect-css-reflows/layout": "off",
+    "no-inline-styles": "off"
+  }
+}

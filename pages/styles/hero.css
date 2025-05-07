@@ -1,0 +1,12 @@
+/* main design purposes */
+/* Variables in CSS */
+:root {
+    --background-image: url('../assets/images/23.jpg');
+    /* for color scrollbar */
+    --scrollbar-color: rgb(253, 143, 0);
+}
+/* To use the variable defined in :root in another CSS file, you can simply reference it like this */
+
+/* body {
+    background-image: var(--background-image);
+} */

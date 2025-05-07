@@ -1,0 +1,40 @@
+.content {
+  position: relative;
+  /* width: 100%; */
+  top: 23%;
+  /* transform: translate(-50%, -50%); */
+}
+.content h1 {
+  position: absolute;
+  /* top: 5%; */
+  /* left: 50%; */
+  color: #fff;
+  /* font-size: 6rem; */
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 7rem;
+
+  /* font-family: 'Poppins', sans-serif; */
+  word-spacing: -5px;
+  /* font-weight: 900; */
+  transform: translate(-50%, -50%);
+
+ 
+}
+.content h1:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #ffd900;
+}
+.content h1:nth-child(2) {
+  color: #ffd900;
+  animation: animate 4s ease-in-out infinite;
+}
+@keyframes animate {
+  0% , 100% {
+    clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+  }
+  50% {
+    clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 51% 62%, 67% 50%, 84% 45%, 100% 33%, 100% 100%, 0% 100%);
+  }
+}
